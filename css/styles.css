@@ -254,9 +254,40 @@ main li {
   justify-content: space-around;
 }
 .detall {
-  margin-top: 90px;
+  margin-top: 95px;
   margin-right: 30px;
   flex-basis: calc((100% - 90px) / 4);
+}
+.detall1 {
+  margin-top: 50px;
+  margin-right: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.detall1 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.detall1 p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  width: 373.16px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: rgba(47, 48, 58, 0.8);
+  margin: 0;
+  margin-top: 70%;
+  position: absolute;
 }
 .team {
   display: flex;
