@@ -133,10 +133,15 @@ main li {
   color: var(--var-color-text-gris);
 }
 
-.email::before {
+.links-datos a:hover,
+.links-datos a:focus {
+  color: #2196f3;
+}
+
+/* .email::before {
   margin-left: 65.75%;
   margin-right: 33.25%;
-}
+} */
 .email:hover,
 .email:focus {
   fill: #2196f3;
@@ -511,4 +516,14 @@ main li {
   margin-top: 32px;
   padding: 0px;
   fill: #212121;
+}
+
+.icon-punt {
+  width: 270px;
+  height: 120px;
+  margin-right: 10px;
+  margin-top: 9px;
+  padding: 0px;
+  border-radius: 4px;
+  background: #f5f4fa;
 }
