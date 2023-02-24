@@ -136,15 +136,14 @@ main li {
 .email::before {
   margin-left: 65.75%;
   margin-right: 33.25%;
-  background-image: url(../images/email-card.jpg);
 }
 .email:hover,
 .email:focus {
-  color: var(--var-color-textdeco-ho-fo);
+  fill: #2196f3;
 }
 .phone:hover,
 .phone:focus {
-  color: var(--var-color-textdeco-ho-fo);
+  fill: #2196f3;
 }
 
 .part-solu {
@@ -512,8 +511,4 @@ main li {
   margin-top: 32px;
   padding: 0px;
   fill: #212121;
-}
-.icon-cell:hover,
-.icon-cell:focus {
-  color: var(--var-color-textdeco-ho-fo);
 }
