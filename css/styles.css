@@ -544,10 +544,10 @@ main li {
   fill: #afb1b8;
   margin-bottom: 0px;
 } */
-/* .icon-equip {
+.icon-equip {
   width: 20px;
   height: 20px;
-} */
+}
 .icon-equip:hover,
 .icon-equip:focus {
   background-color: #2196f3;
@@ -556,5 +556,15 @@ main li {
 
 .iconos-sociales {
   width: 40px;
+  display: fLex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cont-redes {
   display: flex;
+}
+.list-redes {
+  display: fLex;
+  width: 40px;
 }
