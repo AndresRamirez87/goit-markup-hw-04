@@ -527,23 +527,6 @@ main li {
   border-radius: 4px;
   background: #f5f4fa;
 }
-/* .icon-social {
-  display: flex;
-  justify-content: center;
-  height: 44px;
-  margin-top: 16px;
-  padding: 0px;
-  margin: 0 auto;
-  margin-top: 16px;
-} */
-/* .red-socia {
-  border-radius: 50%;
-  height: 44px;
-  margin-right: 10px;
-  padding: 12px;
-  fill: #afb1b8;
-  margin-bottom: 0px;
-} */
 .icon-equip {
   width: 20px;
   height: 20px;
@@ -551,18 +534,10 @@ main li {
 .icon-equip:hover,
 .icon-equip:focus {
   background-color: #2196f3;
-  fill: #f5f4fa;
 }
-
-.iconos-sociales {
-  width: 40px;
-  display: fLex;
-  margin: 0px;
-  padding: 0px;
-}
-
 .cont-redes {
   display: flex;
+  justify-content: center;
 }
 .list-redes {
   display: fLex;
