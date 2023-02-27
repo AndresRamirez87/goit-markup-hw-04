@@ -631,18 +631,21 @@ main li {
 
 .link-red {
   border-radius: 50%;
-  height: 44px;
-  margin-right: 10px;
-  padding: 12px;
+  padding: 5px;
   background: rgba(255, 255, 255, 0.1);
   fill: #afb1b8;
   margin-bottom: 0px;
 }
-.link-red {
-  justify-content: center;
-  height: 44px;
-  margin-top: 16px;
-  padding: 0px;
-  margin: 0 auto;
-  margin-top: 20px;
+
+.link-red:hover,
+.link-red:focus {
+  background: #2196f3;
+  fill: #f5f4fa;
+}
+
+.icon-foot {
+  width: 20px;
+  height: 15px;
+  margin: 1px;
+  padding: auto;
 }
