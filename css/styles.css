@@ -152,7 +152,11 @@ main li {
 }
 
 .part-solu {
-  background-image: url(../images/first.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/first.jpg);
   max-width: 1600px;
   max-height: 600px;
   margin: auto;
@@ -342,6 +346,7 @@ main li {
   font-size: 16px;
   line-height: 1.188rem;
   text-align: center;
+  margin-top: 16px;
   letter-spacing: 0.03em;
   color: var(--var-color-text-gris);
 }
@@ -373,6 +378,7 @@ main li {
   color: var(--var-color-textdeco-ho-fo);
 }
 .addres {
+  padding: auto;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -527,19 +533,116 @@ main li {
   border-radius: 4px;
   background: #f5f4fa;
 }
+.red-socia {
+  border-radius: 50%;
+  fill: #afb1b8;
+  margin-bottom: 0px;
+}
 .icon-equip {
   width: 20px;
   height: 20px;
+  margin: 10px;
+  padding: 1px;
 }
-.icon-equip:hover,
-.icon-equip:focus {
-  background-color: #2196f3;
+
+.red-socia:hover,
+.red-socia:focus {
+  background: #2196f3;
+  fill: #f5f4fa;
 }
 .cont-redes {
   display: flex;
   justify-content: center;
 }
 .list-redes {
-  display: fLex;
-  width: 40px;
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  margin-top: 16px;
+  padding: 0px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.cli-regu {
+  left: 640px;
+  top: 2366px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.clientes {
+  display: flex;
+  fill: #afb1b8;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.emp {
+  margin: 10px;
+  padding: auto;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.company {
+  box-sizing: border-box;
+  width: 170px;
+  height: 81px;
+}
+.zone-client {
+  height: 400px;
+  padding: 100px;
+  background: #ffff;
+}
+
+.red-cont {
+  display: flex;
+  list-style: none;
+}
+.enc {
+  width: 135px;
+  height: 16px;
+  left: 516px;
+  top: 2751px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.red-foot {
+  width: 206px;
+  height: 80px;
+  margin-right: 70px;
+}
+
+.link-red {
+  border-radius: 50%;
+  height: 44px;
+  margin-right: 10px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #afb1b8;
+  margin-bottom: 0px;
+}
+.link-red {
+  justify-content: center;
+  height: 44px;
+  margin-top: 16px;
+  padding: 0px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
